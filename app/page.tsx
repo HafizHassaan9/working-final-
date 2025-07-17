@@ -80,9 +80,9 @@ export default function Home() {
               <p className={`text-xl md:text-2xl text-gray-700 mb-8 leading-relaxed transition-all duration-500 ease-out delay-200 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
                 Niti Vohra helps leaders thrive through empathy, self-awareness, and practical strategy — enhancing leadership impact and fulfillment.
               </p>
-              <button className={`bg-blue-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-700 transition-all duration-300 shadow-lg whitespace-nowrap cursor-pointer transform hover:scale-105 ${showCtaPulse ? 'animate-pulse' : ''}`}>
+              <Link href="https://calendly.com/coachnitti"><button className={`bg-blue-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-700 transition-all duration-300 shadow-lg whitespace-nowrap cursor-pointer transform hover:scale-105 ${showCtaPulse ? 'animate-pulse' : ''}`}>
                 Book a Free Clarity Call
-              </button>
+              </button></Link>
             </div>
             <div className="flex justify-center lg:justify-end">
               <div className="relative">
@@ -319,9 +319,9 @@ export default function Home() {
           <p className="text-xl text-blue-100 mb-8 leading-relaxed">
             Take the first step towards transformational leadership. Book your free clarity call today and discover how coaching can unlock your authentic leadership potential.
           </p>
-          <button className="bg-white text-blue-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition-all duration-300 shadow-lg whitespace-nowrap cursor-pointer transform hover:scale-105 animate-subtle-pulse">
+          <Link href="https://calendly.com/coachnitti"><button className="bg-white text-blue-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition-all duration-300 shadow-lg whitespace-nowrap cursor-pointer transform hover:scale-105 animate-subtle-pulse">
             Book a Free Clarity Call
-          </button>
+          </button></Link>
           <p className="text-blue-100 mt-4 text-sm">No commitment required • 30-minute consultation</p>
         </div>
       </section>
