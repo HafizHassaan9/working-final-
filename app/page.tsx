@@ -56,9 +56,9 @@ export default function Home() {
               <a href="#testimonials" className="text-gray-700 hover:text-blue-600 transition-colors cursor-pointer">Testimonials</a>
               <a href="#faq" className="text-gray-700 hover:text-blue-600 transition-colors cursor-pointer">FAQ</a>
             </div>
-            <button className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-colors whitespace-nowrap cursor-pointer">
+            <Link href="https://calendly.com/coachnitti"><button className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-colors whitespace-nowrap cursor-pointer">
               Book Free Call
-            </button>
+            </button></Link>
           </div>
         </div>
       </nav>
@@ -348,9 +348,9 @@ export default function Home() {
             <div>
               <h4 className="text-lg font-semibold mb-4">Get in Touch</h4>
               <p className="text-gray-300 mb-2">Ready to start your leadership journey?</p>
-              <button className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-colors whitespace-nowrap cursor-pointer">
+              <Link href="https://calendly.com/coachnitti"><button className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-colors whitespace-nowrap cursor-pointer">
                 Book Free Call
-              </button>
+              </button></Link>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center">
